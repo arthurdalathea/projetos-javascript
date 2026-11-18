@@ -1,6 +1,13 @@
-# Central de Calculadoras
+# Calculadora Web Suite
 
 Aplicação que disponibiliza diferentes ferramentas de cálculo em apenas um lugar.
+
+Tipos de calculadora presentes no projeto:
+- Calculadora Básica
+- Calculadora de Juros
+- Calculadora de IMC
+- Calculadora Geométrica
+- Conversor de Bases
 
 ## Estrutura do projeto
 
@@ -9,21 +16,16 @@ central-de-calculadoras/
 │
 ├── index.html
 │
-├── calculadoras/
-│   ├── basica.html
-│   ├── juros.html
-│   ├── porcentagem.html
-│   └── media.html
-│
 ├── css/
 │   └── style.css
 │
 ├── js/
-│   ├── main.js
+│   ├── index.js
 │   ├── basica.js
 │   ├── juros.js
-│   ├── porcentagem.js
-│   └── media.js
+│   ├── imc.js
+│   ├── geometrica.js
+|   └── bases.js
 │
 └── assets/
     ├── img/
